@@ -44,7 +44,7 @@ public class Anagrams {
     
     
     public static void main(String[] args) {
-        System.out.println("hello");
+        
         
         Scanner scan = new Scanner(System.in);
         String a = scan.next();

@@ -15,7 +15,7 @@ public class Tokens {
 
         String[] items = s.trim().split("[ !,?.\\_'@]+");
 
-        if (s == "") {
+        if ((s == null || s.trim().equals(""))) {
             System.out.println("0");
         } else if (s.length() > 400000) {
             return;
